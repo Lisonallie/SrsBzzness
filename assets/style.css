@@ -1,6 +1,48 @@
+html{
+    margin: 0;
+    margin-right: -20px;
+    overflow: hidden;
+}
 body{
     background-image: url(./img/pagebg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.container{
+    display: flex;
+    width: 100vw;
     margin: 0;
+}
+.colone{
+    width: 45%;
+    display: inline-flex;
+}
+.openhours{
+    background-color: rgb(209, 209, 218);
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 70px 40px;
+    border-top: 11px double rgb(43, 48, 110);
+    border-right: 5px double rgb(43, 48, 110);
+    border-bottom: 11px double rgb(43, 48, 110);
+    border-left: 5px double rgb(43, 48, 110);
+}
+table{
+    color:rgb(43, 48, 110);
+    letter-spacing: 1.5px;
+}
+td{
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+th{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+.coltwo{
+    width: 45%;
 }
