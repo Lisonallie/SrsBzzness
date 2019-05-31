@@ -18,7 +18,7 @@ body{
     display: inline-flex;
 }
 .openhours{
-    background-color: rgb(209, 209, 218);
+    background-color: rgba(224, 251, 255, 0.671);
     border-radius: 12px;
     margin-left: auto;
     margin-right: auto;
@@ -28,6 +28,7 @@ body{
     border-right: 5px double rgb(43, 48, 110);
     border-bottom: 11px double rgb(43, 48, 110);
     border-left: 5px double rgb(43, 48, 110);
+    box-shadow: -1px 2px 3px rgb(132, 220, 255);
 }
 table{
     color:rgb(43, 48, 110);
@@ -41,8 +42,19 @@ th{
     display: flex;
     align-items: center;
     font-size: 25px;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
 }
 .coltwo{
     width: 45%;
+}
+p {
+    margin-top: 30%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 35px;
+    color: rgb(43, 48, 110);
+    background-color: rgba(239, 249, 253, 0.432);
+    box-shadow: 1px 2px 3px rgb(132, 220, 255);
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
 }
