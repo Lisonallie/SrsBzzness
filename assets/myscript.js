@@ -1,15 +1,12 @@
 const today = new Date();
-var open = document.getElementById("open");
-var closed = document.getElementById("closed");
+var write = document.getElementById("write");
 function starter() {
     if (today.getHours() >= 10 && today.getHours() < 18 && today.getDay() < 4) {
-        open.style.display === "block";
-        closed.style.display === "none";
+        write.innerHTML = "Open!";
     } else {
-        closed.style.display === "block";
+        write.innerHTML = "Closed.";
     }
     if (today.getDay() = 4 && today.getHours() < 15) {
-        closed.style.display === "block";
-        open.style.display === "none";
+        write.innerHTML = "Open!";
     }
 }
