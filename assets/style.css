@@ -61,3 +61,16 @@ p {
 #write {
     color: rgb(80, 82, 112);
 }
+#clock {
+    font-size: 35px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: rgba(224, 251, 255, 0.753);
+    letter-spacing: 2px;
+    position: absolute;
+}
+.clockpos {
+    position: relative;
+    margin-top: 20%;
+}
